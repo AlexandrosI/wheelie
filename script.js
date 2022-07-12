@@ -1,23 +1,5 @@
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-}
+
 
 
 
@@ -35,8 +17,14 @@ function letsSpin() {
   
 }
 
+fetch('https://api.themoviedb.org/3/trending/movie/week?api_key=e96538d3c36ac6d0f81ca3bcb38e1e1e')
+.then(response => response.json())
+.then(data => console.log(data));
 
 
 // The syntax for Math any methods is : Math.method(number)
 // Math.floor(x) returns the value of x rounded down to its nearest integer:
 // Math.random() returns a random number between 0 (inclusive), and 1 (exclusive):
+
+
+https://api.themoviedb.org/3/5TdKvZimLSJHPQW8t3ctlsusnmH.jpg

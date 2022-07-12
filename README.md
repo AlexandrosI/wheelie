@@ -50,4 +50,4 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlOTY1MzhkM2MzNmFjNmQwZjgxY2EzYmNiMzhlMWUxZSIsInN
 
 
 
-https://api.themoviedb.org/3/genre/movie/list?api_key=e96538d3c36ac6d0f81ca3bcb38e1e1e&language=en-US
+https://api.themoviedb.org/3/genre/movie/list?api_key=e96538d3c36ac6d0f81ca3bcb38e1e1e&language=en-US   (fetches all genres)
