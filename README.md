@@ -38,16 +38,5 @@ https://blog.hubspot.com/website/html-radio-button   (FOR RADIO BUTTON)
 
 
 ***********************************************************************************
-API Key (v3 auth)
-
-e96538d3c36ac6d0f81ca3bcb38e1e1e
-
-example API request 
-https://api.themoviedb.org/3/movie/550?api_key=e96538d3c36ac6d0f81ca3bcb38e1e1e
-
-API Read Access Token (v4 auth)
-eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlOTY1MzhkM2MzNmFjNmQwZjgxY2EzYmNiMzhlMWUxZSIsInN1YiI6IjYyYTY0YTJhODUwMDVkNGMwODJjNDM5NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nMXkiEkz_jtCZrKXx3cku5RaDfEX7EXgan8QFAEsmGU
 
 
-
-https://api.themoviedb.org/3/genre/movie/list?api_key=e96538d3c36ac6d0f81ca3bcb38e1e1e&language=en-US   (fetches all genres)

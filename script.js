@@ -17,6 +17,7 @@ function letsSpin() {
   
 }
 
+
 fetch('https://api.themoviedb.org/3/trending/movie/week?api_key=e96538d3c36ac6d0f81ca3bcb38e1e1e')
 .then(response => response.json())
 .then(data => console.log(data));
@@ -27,4 +28,4 @@ fetch('https://api.themoviedb.org/3/trending/movie/week?api_key=e96538d3c36ac6d0
 // Math.random() returns a random number between 0 (inclusive), and 1 (exclusive):
 
 
-https://api.themoviedb.org/3/5TdKvZimLSJHPQW8t3ctlsusnmH.jpg
+// https://api.themoviedb.org/3/5TdKvZimLSJHPQW8t3ctlsusnmH.jpg
